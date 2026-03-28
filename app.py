@@ -17,7 +17,7 @@ from pathlib import Path
 
 # ── Page config (must be first Streamlit call) ──────────────────────────────
 st.set_page_config(
-    page_title="PitchGuard AI",
+    page_title="Pitch Vision AI",
     page_icon="⚾",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -189,7 +189,7 @@ def inject_css():
 # ── Sidebar ──────────────────────────────────────────────────────────────────
 def render_sidebar():
     with st.sidebar:
-        st.markdown('<div class="sidebar-logo">⚾ PitchGuard AI</div>', unsafe_allow_html=True)
+        st.markdown('<div class="sidebar-logo">⚾ Pitch Vision AI</div>', unsafe_allow_html=True)
         st.markdown('<div class="sidebar-tagline">Biomechanics · Injury Prevention</div>', unsafe_allow_html=True)
         st.divider()
 
@@ -701,7 +701,7 @@ def main():
     st.markdown(
         """
         <div class="pg-hero">
-            <h1>⚾ PitchGuard AI</h1>
+            <h1>⚾ Pitch Vision AI</h1>
             <p>Elite biomechanics analysis · Injury prevention · AI-powered coaching</p>
         </div>
         """,
