@@ -1,0 +1,15 @@
+
+streamlit
+opencv-python-headless==4.9.0.80
+mediapipe==0.10.18
+numpy==1.26.4
+pandas==2.2.2
+xgboost==2.0.3
+scikit-learn==1.4.2
+joblib==1.4.2
+plotly==5.22.0
+google-genai==0.8.0
+Pillow==10.3.0
+protobuf==4.25.3
+attrs==23.2.0
+absl-py==2.1.0
